@@ -2,13 +2,13 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
-Hallo User DaniBotz 👋
+Hallo User 𝐃𝖆𝖗𝖐-𝐌𝐝 👋
 *Kalian Bisa Mendukung Saya Agar Bot Ini Tetap Up To Date Dengan Cra:*
 
 ╭─❏ *『 DONASI 』*
-│ ➪ Dana : 081251549899
-│ ➪ Gopay : 081352848936
-│ ➪ Ovo : 081352848946
+│ ➪ Dana : 089********
+│ ➪ Gopay : 08993451566
+│ ➪ Pulsa : 0895323413434
 ╰───────────────❏
 
 BERAPAPUN DONASI KALIAN AKAN SANGAT BERARTI 👍
@@ -23,21 +23,21 @@ TERIMAKASIH  BUAT YANG SUDAH MAU BERDONASI😉
            hydratedFooterText: '🔥 Silahkan pilih Command Dibawah ini',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'My Youtube📸',
-               url: 'https://youtube.com/channel/UCoHJ9D9Sy3TLp0mUHBrj1cg',
+               displayText: 'My Tiktok📸',
+               url: 'https://tiktok.com/@yan.mek',
              }
 
            },
                 {
                urlButton: {
-               displayText: '😼Owner DaniBotz',
+               displayText: '😼Owner',
                url: nomer
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'sewa',
+               displayText: 'Sewa',
                id: '.sewadani',
              }
              

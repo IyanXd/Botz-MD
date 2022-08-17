@@ -5,11 +5,11 @@ let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
-let anu = `Hallo User DaniBotz 👋
+let anu = `Hallo User 𝐃𝖆𝖗𝖐-𝐌𝐝 👋
 ╭──「 *SEWABOT* 」
-├  1 Minggu : lDR 3.000 (3k)
-├  1 BULAN : IDR 5.000 (5k)
-├  5 BULAN : lDR 8.000 (8k) 
+├  1 Minggu : lDR 7.000 (7k)
+├  1 BULAN : IDR 10.000 (10k)
+├  1 BULAN : lDR 15.000 (15k) 
 ╰────
 ╭─ [ KELEBIHAN BOT ]
 ├  ＯＮ 24 ＪＡＭ
@@ -39,6 +39,6 @@ wa.me/${numberowner} (Owner)
 }
 handler.help = ['sewadani']
 handler.tags = ['info']
-handler.command = /^(danisewa|sewadani|sewa|sewabot)$/i
+handler.command = /^(danisewa|sewadani|sewa|sewabot|sewazifa)$/i
 
 module.exports = handler

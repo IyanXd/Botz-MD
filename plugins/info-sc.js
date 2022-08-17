@@ -12,7 +12,7 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: 'subscribe banh!',
+           hydratedFooterText: 'Mulung Sc ko dekk',
            hydratedButtons: [{
              urlButton: {
                displayText: 'SOURCE CODE 🐈',
@@ -26,13 +26,6 @@ let krizyn = `
                url: webm
              }
 
-           },
-               {
-             quickReplyButton: {
-               displayText: 'Dapatkan session',
-               id: '.tutorialsession',
-             }
-             
            },
                {
              quickReplyButton: {

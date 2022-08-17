@@ -43,7 +43,7 @@ const defaultMenu = {
   header: '╭─❏ 『 %category 』 ',
   body: '┃➪ %cmd %islimit %isPremium',
   footer: '┃\n╰───────────────❏\n', 
-  footerText: 'Powered by ᯤ ʀɪᴇʟɢᴀɴs ᴏғᴄ',
+  footerText: 'Powered by ᯤ iyan ᴏғᴄ',
   after: `
 ╭─❏『  THANKS TO🥀  』
 │ ➪ Allah SWT
@@ -57,7 +57,6 @@ const defaultMenu = {
 │ ➪ KrizynOfc
 │ ➪ RielgansOfc
 │ ➪ Zifabotz_offc1
-│ ➪ DaniOfficial
 ╰───────────────❏
 `,
 }
@@ -324,18 +323,18 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
         listMessage: {
             title: `${ucapan()} ${name}`,
             description: menuu,
-            buttonText: 'KLIK AJG🗿',
+            buttonText: 'wạ.me/𝐲𝖆𝖓𝖓𝖐𝖓𝖙𝖑𝖑〆',
             listType: 1,
             footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
             mtype: 'listMessage',
             sections: [
               {
                 "rows": [{
-                  "title": ` 👨 OWNER BOT`,
+                  "title": `👨 Creator`,
                   "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
-                  "title": "❗ INFO BOT",
+                  "title": "❗ Info Bot",
                   "description": "Menampilkan Menu Info",
                   "rowId": `${_p}? info`
                 }],
@@ -529,35 +528,35 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             hydratedFooterText: wm2, 
             hydratedButtons: [{
             urlButton: {
-               displayText: '📸MY INSTAGRAM📸',
+               displayText: 'Instagram',
                url: webm
              }
 
            },
              {
              urlButton: {
-               displayText: '☯️GROUP DANIBOTZ☯️', 
+               displayText: 'Group', 
                url: gc
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '🗿OWNER TERGANTENG🗿',
+               displayText: 'Owner',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-        displayText: '🪀SEWABOT🪀',
+        displayText: 'Sewa',
                id: '.sewadani',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: ' 💌TEAM YANG SUDAH MEMBANTU BOT💌',
+               displayText: ' Thanks Too',
                id: '.tqto',
              }
            }]

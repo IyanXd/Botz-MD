@@ -17,9 +17,6 @@ Kendala Dari Jaringan, Signal,
 Atau Bahkan Terbanned Dari
 Pihak WhatsApp
 
-👦 : Scriptnya Beli Dimana?
-🤖 : Script Gak Dijual, Tapi Bisa Cari Di YT DaniBotz
-
 👦 : Boleh Masukin Ke Grup Saia
 Tidak?
 🤖 : Chat Wa Owner Aja Semoga Aja Boleh
@@ -60,15 +57,15 @@ Pembuatan Bot Ini
            hydratedFooterText: '📮 Silahkan pilih Command Dibawah ini',
            hydratedButtons: [{
              urlButton: {
-               displayText: '🎮GroupBot🎮',
-               url: 'https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv'
+               displayText: 'Group',
+               url: 'https://chat.whatsapp.com/EVwtTcTdkIf1SBetn69gJt'
              }
 
            },
                 {
                urlButton: {
-               displayText: '🔮Myweb🔮',
-               url: 'https://istagram.com/danibotz_official'
+               displayText: 'Myweb',
+               url: 'https://istagram.com/yanxd81'
              }
 
            },

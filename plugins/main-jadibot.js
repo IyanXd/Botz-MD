@@ -5,7 +5,7 @@ let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
-let anu = `Hallo User DaniBotz 👋
+let anu = `Hallo User 𝐃𝖆𝖗𝖐-𝐌𝐝 👋
        
 ╭──「 *_JADI BOT + OWNER_* 」
 ├   RP : IDR 25.000 (25k)

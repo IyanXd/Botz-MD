@@ -3,11 +3,11 @@ let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
 •·––––––––––––––––––––––––––·•
-❑ *Nama* : Dani Ganz
+❑ *Nama* : Iyann
 ❑ *Umur* : 15 Tahun
 ❑ *Kelas* : 9 SMP
-❑ *Ulang Tahun* : 16 DESEMBER 2007
-❑ *Alamat* : Indonesia, Kalimantan Selatan, Kandangan
+❑ *Ulang Tahun* : 25 JANUARI 2007
+❑ *Alamat* : Indonesia, Jawa Timur, Surabaya
 •·––––––––––––––––––––––––––·•
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya7)).buffer()}, { upload: conn.waUploadToServer }) 
@@ -16,10 +16,10 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: 'salam kenal bang👋',
+           hydratedFooterText: 'Salam kenal bang👋',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'GroupDaniBotz 🐈',
+               displayText: 'Group 🐈',
                url: gc
              }
 

@@ -23,7 +23,7 @@ let krizyn = `
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'YouTube creator🌱',
+               displayText: 'creator🌱',
                url: yt
              }
 

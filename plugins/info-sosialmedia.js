@@ -4,7 +4,7 @@ let handler = async (m) => {
 let krizyn = `
 ╭─❑ 「 *SOSIAL MEDIA* 」 ❑──
 │ Follow sosial media
-│ DaniBotz yuk biar saling
+│ Iyan yuk biar saling
 │ kenal...
 ╰❑
 	`.trim()
@@ -17,35 +17,28 @@ let krizyn = `
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'Tiktok DaniBotz📨',
+               displayText: 'Tiktok📨',
                url: tt
-             }
-
-           },
-                {
-               urlButton: {
-               displayText: 'Youtube DaniBotz🔥',
-               url: yt
              }
 
            },
                {
 urlButton: {
-               displayText: 'Instagram DaniBotz📸',
+               displayText: 'Instagram📸',
                url: webm
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'STORE DANIBOTZ',
+               displayText: 'Store',
                id: '.store',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: 'BIODATA DANIBOTZ',
+               displayText: 'Biodata
                id: '.biodata',
              }
 
