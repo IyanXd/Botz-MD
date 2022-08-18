@@ -38,15 +38,15 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     itemCount : 20290,
     status: 1,
     surface : 1,
-    message: `❏ DaniBotz`, 
+    message: `❏ 𝐃𝖆𝖗𝖐-𝐌𝐝`, 
     orderTitle: `▮Menu ▸`,
-    thumbnail: await (await fetch('https://telegra.ph/file/ad0f27b9d5e469827e654.jpg')).buffer(), //Gambarnye
+    thumbnail: await (await fetch('https://telegra.ph/file/c5a001532c869a017f0f6.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
     }
   await conn.send3ButtonImg(m.chat, await (await fetch(thumb)).buffer(), `
-*PLAY DANIBOTZ*
+*PLAY DARK-MD*
 ├●───────────────┤
 ◁ㅤ ❚❚ㅤ▷
 ┏┉━━━━━━━━━━━❏
@@ -63,7 +63,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
             description: 'Apa benar ini yang anda cari?',
             mediaType: 2,
           thumbnail: await (await fetch(thumb)).buffer(),
-         mediaUrl: `https://vt.tiktok.com/ZSdy5q2fJ/`
+         mediaUrl: `https://youtube.com/`
         }
      }
     })
